@@ -53,4 +53,9 @@ class CalculatorTest {
     void multiplyShouldReturnOnZero() {
         assertEquals(0, calc.multiply(21, 0));
     }
+
+    @Test
+    void differenceShouldReturnDiff(){
+        assertEquals(6,calc.difference(13,7));
+    }
 }

@@ -20,4 +20,8 @@ public class Calculator {
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
+
+    public int difference(int a, int b) {
+        return a - b;
+    }
 }
